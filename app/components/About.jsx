@@ -5,15 +5,16 @@ var About = (props) => {
     return (
         <div>
             <h1 className="text-center">About</h1>
-            <p className="text-center">This page was made with these technologies.<br />Check them out!</p>
+            <p>Here are the tools used:</p>
             <ul>
                 <li>
-                    <a href="https://reactjs.org/" target="_blank">ReactJS</a>
+                    <a href="https://facebook.github.io/react" target="_blank">ReactJS</a> - Javascript framework
                 </li>
                 <li>
-                    <a href="https://openweathermap.org/" target="_blank">Open Weather Map</a>
+                    <a href="https://openweathermap.org/" target="_blank">Open Weather Map</a> - API
                 </li>
             </ul>
+            <footer className="text-center">Brought to you in part by<br />The Complete React Web App Developer Course</footer>
         </div>
     )
 };
